@@ -1,0 +1,9 @@
+#EXTM3U
+#EXTINF:0,BG: BTV Cinema
+http://84.43.207.130/btvcinema/btvcinema.m3u8
+#EXTINF:0,BG: Diema
+http://84.43.207.130/diema/diema.m3u8
+#EXTINF:0,BG: Planeta HD
+http://84.43.207.130/planetahd/planetahd.m3u8
+#EXTINF:0,BG: Europa TV
+http://84.43.207.130/evropatv/evropatv.m3u8
