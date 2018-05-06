@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item>
+<title> IPTV.TR.1</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:.*,(TR.*?)\n.*(http.*m3u8)</expres>
+<page>http://swar.fannan.se:8000/get.php?username=Hassen01&amp;password=Hassen01&amp;type=m3u&amp;output=m3u8</page>
+<referer>www.google.com/</referer>
+<x-forward></x-forward>
+<agent>Kodi/18.0</agent>
+</regex>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
+<page></page>
+</regex>
+</item>
+
+  <item>
+<title> IPTV.TR.2</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:.*,(TR .*?)\n.*(http.*m3u8)</expres>
+<page>http://p4.giffy.be:8080/get.php?username=shorty123&amp;password=shorty123&amp;type=m3u&amp;output=m3u8</page>
+<referer>http://www.google.com/</referer>
+<x-forward></x-forward>
+<agent>Kodi/18.0</agent>
+</regex>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
+<page></page>
+</regex>
+</item>
+
+  <item>
+<title> IPTV.TR.3</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:.*,(TR .*?)\n.*(http.*m3u8)</expres>
+<page>http://p4.giffy.be:8080/get.php?username=coke123&amp;password=coke123&amp;type=m3u&amp;output=m3u8</page>
+<referer>http://www.google.com/</referer>
+<x-forward></x-forward>
+<agent>Kodi/18.0</agent>
+</regex>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
+<page></page>
+</regex>
+</item> 
+
+  <item>
+<title> IPTV.TR.4</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:.*,(.*?)\n.*(http.*ts)</expres>
+<page>http://ip.akiptv.biz:8000/get.php?username=7879&amp;password=L6GAa47dVT&amp;type=m3u&amp;output=mpegts</page>
+<referer>http://www.google.com/</referer>
+<x-forward></x-forward>
+<agent>Kodi/18.0</agent>
+</regex>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
+<page></page>
+</regex>
+</item> 
+  
+  <item>
+<title> IPTV.TR.5</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:.*,(.TR.*?)\n.*(http.*ts)</expres>
+<page>http://145.239.1.103:8000/get.php?username=melik&amp;password=123456&amp;type=m3u&amp;output=mpegts</page>
+<referer>http://www.google.com//</referer>
+<x-forward></x-forward>
+<agent>Kodi/18.0</agent>
+</regex>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
+<page></page>
+</regex>
+</item>
+  
+  <item>
+<title> IPTV.BG.1</title>
+<link>$doregex[makelist]</link>
+<regex>
+<name>makelist</name>
+<listrepeat><![CDATA[
+<title>[makelist.param1]</title>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
+<thumbnail>NA</thumbnail>
+]]></listrepeat>
+<expres>#EXTINF:.*,(.*?)\n.*(http.*m3u8)</expres>
+<page>https://raw.githubusercontent.com/mutluerol/iptv.bg/master/iptv.bg.m3u</page>
+<referer>http://wwww.github.com/</referer>
+<x-forward></x-forward>
+<agent>Kodi/18.0</agent>
+</regex>
+<regex>
+<name>encodedurl</name>
+<expres>$pyFunction:urllib.quote_plus('[makelist.param2]')<expres>
+<page></page>
+</regex>
+</item>   
