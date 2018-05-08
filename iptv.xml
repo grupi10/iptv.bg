@@ -10,7 +10,7 @@
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:.*,(.*?)\n.*(http.*m3u8)</expres>
-<page>http://devcon101.com:8080/get.php?username=4pO5Hd1L66&amp;password=I5LlinnDra&amp;type=m3u&amp;output=m3u8</page>
+<page>http://www.ipcctv.org/get.php?username=paul&amp;password=paul1&amp;type=m3u&amp;output=m3u8</page>
 <referer>www.google.com/</referer>
 <x-forward></x-forward>
 <agent>Kodi/18.0</agent>
@@ -32,8 +32,8 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
-<expres>#EXTINF:.*,(TR .*?)\n.*(http.*ts)</expres>
-<page>http://p4.giffy.be:8080/get.php?username=shorty123&amp;password=shorty123&amp;type=m3u&amp;output=mpegts</page>
+<expres>#EXTINF:.*,(TR.*?)\n.*(http.*ts)</expres>
+<page>http://g.ddns.net:31000/get.php?username=raid&amp;password=raid&amp;type=m3u&amp;output=mpegts</page>
 <referer>http://www.google.com/</referer>
 <x-forward></x-forward>
 <agent>Kodi/18.0</agent>
