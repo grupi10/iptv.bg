@@ -9,7 +9,7 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
-<expres>#EXTINF:.*,(.*?)\n.*(http.*m3u8)</expres>
+<expres>#EXTINF:.*,(TR.*?)\n.*(http.*m3u8)</expres>
 <page>http://www.ipcctv.org/get.php?username=paul&amp;password=paul1&amp;type=m3u&amp;output=m3u8</page>
 <referer>www.google.com/</referer>
 <x-forward></x-forward>
@@ -55,8 +55,8 @@
 <link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
-<expres>#EXTINF:.*,(TR .*?)\n.*(http.*m3u8)</expres>
-<page>http://p4.giffy.be:8080/get.php?username=coke123&amp;password=coke123&amp;type=m3u&amp;output=m3u8</page>
+<expres>#EXTINF:.*,(TR.*?)\n.*(http.*m3u8)</expres>
+<page>http://swar.fannan.se:8000/get.php?username=Hassen01&amp;password=Hassen01&amp;type=m3u&amp;output=m3u8</page>
 <referer>http://www.google.com/</referer>
 <x-forward></x-forward>
 <agent>Kodi/18.0</agent>
