@@ -29,11 +29,11 @@
 <name>makelist</name>
 <listrepeat><![CDATA[
 <title>[makelist.param1]</title>
-<link>plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
+<link>plugin://plugin.video.f4mTester/?streamtype=HLSRETRY&amp;name=[makelist.param1]&amp;url=$doregex[encodedurl]</link>
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
-<expres>#EXTINF:.*,(TR.*?)\n.*(http.*ts)</expres>
-<page>http://http://landiptv.live:8080/get.php?username=ricardo&amp;password=ricardo&amp;type=m3u&amp;output=mpegts</page>
+<expres>#EXTINF:.*,(TR.*?)\n.*(http.*m3u8)</expres>
+<page>http://swar.fannan.se:8000/get.php?username=turkish&amp;password=turkish&amp;type=m3u&amp;output=m3u8</page>
 <referer>http://www.google.com/</referer>
 <x-forward></x-forward>
 <agent>Kodi/18.0</agent>
