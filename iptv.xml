@@ -33,7 +33,7 @@
 <thumbnail>NA</thumbnail>
 ]]></listrepeat>
 <expres>#EXTINF:.*,(TR.*?)\n.*(http.*ts)</expres>
-<page>http://vizyon.pw:8000/get.php?username=aydgnglzrgmail.com&amp;password=9996ER5H&amp;type=m3u_plus&amp;output=ts</page>
+<page>http://ipsatpro.info:8080/get.php?username=GIOVANNI2017&amp;password=GIOVANNI2017&amp;type=m3u_plus&amp;output=ts</page>
 <referer>http://www.google.com/</referer>
 <x-forward></x-forward>
 <agent>Kodi/18.0</agent>
