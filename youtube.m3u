@@ -1,4 +1,4 @@
 #EXTM3U x-tvg-url=""
 
 #EXTINF:-1 tvg-name="TVNZ 1" tvg-id="tv.9" tvg-logo="",TVNZ 1
-pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i https://www.youtube.com/watch?v=nygb4pcjMYE -vcodec copy -acodec copy -metadata service_name=tv.9 -f mpegts pipe:1
+pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i http://netsporhd.org:4587/live/zonguldak67/zonguldak67/51.ts -vcodec copy -acodec copy -metadata service_name=tv.9 -f mpegts pipe:1
