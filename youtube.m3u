@@ -1,5 +1,4 @@
-#EXTM3U
-#EXTINF:0,TR: Radio Fenomen
-https://www.youtube.com/watch?v=wooKxOMNVkY
-#EXTINF:0,TR: Metro FM
-https://www.youtube.com/watch?v=nygb4pcjMYE
+#EXTM3U x-tvg-url=""
+
+#EXTINF:-1 tvg-name="TVNZ 1" tvg-id="tv.9" tvg-logo="",TVNZ 1
+pipe://ffmpeg -loglevel fatal -headers X-Forwarded-For:\ 202.89.4.222\r\nUser-Agent:\ FMLE/3.0\ (compatible;\ FMSc/1.0)\r\n -i https://www.youtube.com/watch?v=nygb4pcjMYE -vcodec copy -acodec copy -metadata service_name=tv.9 -f mpegts pipe:1
